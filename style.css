@@ -1,5 +1,6 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	color: black;
 }
 
 .home-bio {
@@ -10,7 +11,7 @@ body {
 	text-align: center;
 }
 
-.faq {
+.subpage {
 	margin-top: 100px;
 	margin-bottom: 100px;
 	margin-left: 30%;
@@ -23,6 +24,11 @@ h1 {
 
 .pfp {
 	max-width: 12em;
+	height: auto;
+}
+
+.pfp-landscape {
+	max-width: 20em;
 	height: auto;
 }
 
@@ -47,6 +53,10 @@ button:hover {
 	background-color: #197352;
 }
 
+iframe {
+	margin-top: 3em;
+}
+
 .review {
 	padding: 0.5em;
 	font-size: 1.4em;
@@ -56,4 +66,17 @@ button:hover {
 .review-author {
 	color: rgb(101, 101, 101);
 	font-style: italic;
+}
+
+li.number-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol {
+	margin: 0;
+	margin-left: 1em;
+	margin-bottom: 1em;
+	padding: 0;
 }
