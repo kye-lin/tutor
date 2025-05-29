@@ -22,3 +22,14 @@ button {
 	margin-left: 1em;
 	margin-right: 1em;
 }
+
+.review {
+	padding: 0.5em;
+	font-size: 1.4em;
+	background-color: rgb(234, 234, 234);
+}
+
+.review-author {
+	color: rgb(101, 101, 101);
+	font-style: italic;
+}
